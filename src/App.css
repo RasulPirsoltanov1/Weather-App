@@ -1,0 +1,98 @@
+#root {
+  
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.card-container {
+  background-color: rgba(74, 127, 191, 0.7);
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid greenyellow;
+  border-radius: 30px;
+  justify-content: space-around;
+  box-shadow: 5px,2px,2px black ;
+}
+
+.card{
+  color: white;
+  width: 200px;
+  height: auto;
+  background-color: #646cffaa;
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid blanchedalmond;
+  background-image: url("https://as1.ftcdn.net/v2/jpg/02/24/92/60/1000_F_224926031_mGoiNVsqk5jTsQwRvAdKlbdYwdZo4zFg.jpg");
+}
+.hot {
+  background-image: url("https://img.freepik.com/free-photo/sun-flare_74190-1494.jpg");
+}
+
+#cityName{
+  padding: 10px;
+  height: 40px;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  
+}
+.card h2{
+ background-color: rgba(66, 201, 100, 0.7);
+ border-radius: 10px;
+}
+.card h3{
+  background-color: rgba(66, 201, 100, 0.7);
+  border-radius: 10px;
+ }
+ .card p{
+  background-color: rgba(66, 201, 100, 0.7);
+  border-radius: 10px;
+ }
+ body{
+  background-image: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg");
+  background-color: rgba(74, 127, 191, 0.1);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
